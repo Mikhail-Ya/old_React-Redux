@@ -1,0 +1,46 @@
+.post {
+    display: grid;
+    grid-template-columns: 80px;
+    grid-template-areas:
+  "spn h "
+  "img p "
+  "d d";
+    margin: 5px;
+    border: 1px solid aqua;
+    box-shadow: 0 0 10px -4px darkcyan;
+    width: 760px;
+    padding: 10px;
+}
+
+.post img {
+    grid-area: img;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.post .tema {
+    grid-area: h;
+    margin: 5px;
+    padding: 0;
+}
+
+.tema b {
+    margin-left: 10px;
+}
+
+.post p {
+    grid-area: p;
+    margin-left: 10px;
+}
+
+.post span {
+    grid-area: spn;
+    font-weight: bold;
+    margin: auto;
+}
+
+.post .nrav {
+    grid-area: d;
+}

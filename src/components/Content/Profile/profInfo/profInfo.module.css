@@ -1,0 +1,21 @@
+.T_info {
+    display: grid;
+    grid-template-areas: "avatar info";
+    grid-template-columns: 90px;
+}
+
+.avatar {
+    grid-area: avatar;
+    margin: 10px;
+}
+
+.avatar img {
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+}
+
+.profInfo {
+    grid-area: info;
+    padding: 10px;
+}

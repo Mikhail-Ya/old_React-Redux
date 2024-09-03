@@ -1,0 +1,18 @@
+.App {
+  display: grid;
+  grid-template-areas: 
+  "head head head"
+  "bar content content";
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: min-content;
+  grid-gap: 5px;
+  margin: 0 auto;
+  width: 940px;
+}
+.content {
+  grid-area: content;
+
+  background-color: aquamarine;
+}
+
+

@@ -1,0 +1,13 @@
+.msg {
+    width: max-content;
+    height: max-content;
+    border: 1px solid blue;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.msg p {
+    max-width: 450px;
+    margin: 0;
+}

@@ -1,0 +1,5 @@
+.list {
+  grid-area: cont;
+  border: 1px solid cadetblue;
+  box-shadow: 0 0 10px 0 cadetblue;
+}

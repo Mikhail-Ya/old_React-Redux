@@ -1,0 +1,34 @@
+.div {
+ margin: 10px;
+}
+.vvod h6 {
+ margin: 0;
+
+}
+.tema{
+ height: 16px;
+ width: 120px;
+ border-radius: 5px;
+ padding: 3px;
+ margin: 3px;
+ background-color: aquamarine;
+}
+.text {
+ height: 40px;
+ width: 300px;
+ border-radius: 5px;
+ padding: 3px;
+ margin: 3px;
+ background-color: aquamarine;
+}
+
+.btn {
+ background-color: deepskyblue;
+ border-radius: 3px;
+ border: 1px solid cornflowerblue;
+ margin: 5px;
+ box-shadow: 2px 2px 5px 0 cornflowerblue;
+}
+.btn:hover {
+ box-shadow: 0 0 8px 0 darkred;
+}

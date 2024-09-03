@@ -1,0 +1,7 @@
+.dialog {
+    display: grid;
+    grid-template-areas:
+        "cont msg";
+    grid-template-columns: 200px;
+    grid-column-gap: 5px;
+}

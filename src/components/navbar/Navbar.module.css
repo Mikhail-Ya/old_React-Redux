@@ -1,0 +1,24 @@
+.bar {
+  width: 165px;
+  grid-area: bar;
+  text-align: center;
+  background-color: cornflowerblue;
+}
+
+.bar ul {
+  padding: 0;
+}
+
+.bar li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.bar a {
+  text-decoration: none;
+}
+
+.bar .active {
+  color: maroon;
+}
+

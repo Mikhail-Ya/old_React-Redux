@@ -1,0 +1,38 @@
+.list {
+  grid-area: msg;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 700px;
+}
+.message {
+  border: 1px solid cornflowerblue;
+  margin: 1px;
+  box-shadow: inset 1px 1px 5px 0 cornflowerblue, 0 0 5px 0 cornflowerblue;
+  height: 500px;
+  overflow: auto;
+  scrollbar-width: thin;
+}
+.newMessage {
+   border: 2px solid cornflowerblue;
+  box-shadow: 0 0 10px 0 cadetblue;
+  border-radius: 5px;
+}
+.textarea {
+  width: 590px;
+  height: 30px;
+  border-radius: 10px;
+  padding: 3px;
+  margin: 3px;
+  background-color: aquamarine;
+}
+.btn {
+  background-color: deepskyblue;
+  border-radius: 3px;
+  border: 1px solid cornflowerblue;
+  margin: 5px;
+  box-shadow: 2px 2px 5px 0 cornflowerblue;
+}
+.btn:hover {
+  box-shadow: 0 0 8px 0 darkred;
+}
